@@ -58,6 +58,8 @@
 
 /* header end */
 
+/* main section */
+
 
 .bnc-txt h1 {
     color: #272727;
@@ -264,43 +266,45 @@
 
 
 /* ---------- */
-.latest-deal{
-    margin: 5px 5px; 
-    padding: 0px 78px;
-    margin-top: 128px;
-}
-.deal-image{
-    background-image: url('Rectangle\ 9.png');
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    background-color: #cccccc; 
-    height: 500px; 
-    background-position: center;
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    color: azure;
-}
-#deal-head{
-         color: #181818;
-        font-weight: 500;
-        font-size: 60px;  
-}
-.deal-description{
-    color: #272727;
-}
-.deal-form{
-    display: flex;
-    gap: 20px;
-}
-.form-place{
-    padding-right: 18px 100px;
-}
 
 
 
 /* --------- */
+
+ 
+ .last-container {
+    margin-top: 128px;
+    padding-top: 60px;
+    text-align: center;
+    background-image: url(Rectangle\ 9.png);
+    height: 300px;
+    width: 1440px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 240px;
+    padding-top: 70px;
+    margin-bottom: 90px;
+}
+
+.help {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.plan {
+    color: #272727;
+    padding-bottom: 20px;
+}
+
+.inpu-1 {
+    height: 50px;
+    width: 600px;
+    border: none;
+    
+}
+
+/* footer section */
 
 .footer {
     text-align: center;
