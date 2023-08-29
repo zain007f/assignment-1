@@ -264,51 +264,54 @@
 
 
 /* ---------- */
-
-.sec-d {
-
-    background-image: url("Rectangle\ 9.png");
-    width: 1440px;
-    height: 449px;
-    margin-left: 230px;
+.latest-deal{
+    margin: 5px 5px; 
+    padding: 0px 78px;
     margin-top: 128px;
 }
-
-.nw1 {
-    text-align: center;
-    color: #272727;
-    font-weight: 800;
-    font-size: 40px;
-    margin-bottom: 16px;
-}
-
-.nw2 {
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.sec-dd {
+.deal-image{
+    background-image: url('Rectangle\ 9.png');
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     display: flex;
-    margin-top: 48px;
-
+    background-color: #cccccc; 
+    height: 500px; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    color: azure;
+}
+#deal-head{
+         color: #181818;
+        font-weight: 500;
+        font-size: 60px;  
+}
+.deal-description{
+    color: #272727;
+}
+.deal-form{
+    display: flex;
+    gap: 20px;
+}
+.form-place{
+    padding-right: 18px 100px;
 }
 
 
-.fo {
-    width: 700px;
-    height: 64px;
-    margin-top: ;
-}
+
+/* --------- */
 
 .footer {
     text-align: center;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: black;
     color: white;
     width: 1922px;
     height: 449px;
+    margin-top: 128px;
 }
 
 .fl {
